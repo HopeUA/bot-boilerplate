@@ -1,0 +1,19 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Sergii Sadovyi <s.sadovyi@hope.ua>",
+  "description": "Bot boilerplate",
+  "scripts": {
+    "start": "bin/server"
+  },
+  "dependencies": {
+    "apiai": "^4.0.3",
+    "hubot": "^3.0.1",
+    "hubot-redis-brain": "^1.0.0",
+    "hubot-telegram": "^0.1.2"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0"
+  }
+}
